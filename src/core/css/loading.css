@@ -1,0 +1,94 @@
+
+.loading-box{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background-color: rgba(255,255,255,0);
+    transform: scale(.8);
+    z-index: 13000;
+}
+
+.circle{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: auto;
+    position: relative;
+    top: 1rem;
+    border-radius: 0.75rem;
+    background-color: #fff;
+    background: -webkit-linear-gradient(180deg, #FF6500,#ffae05, #ffba00); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(180deg, #FF6500,#ffae05, #ffba00); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(180deg, #FF6500,#ffae05, #ffba00); /* Firefox 3.6 - 15 */
+    background: linear-gradient(180deg, #FF6500,#ffae05, #ffba00); /* 标准的语法（必须放在最后） */
+    -webkit-animation:circle 0.5s infinite linear;
+}
+
+.right-bottom{
+    position: absolute;
+    right: 0.09rem;
+    bottom: -0.34rem;
+    transform: rotate(45deg);
+    background-color: #a9a9a9;
+}
+
+.round-red{
+    width: 0.31rem;
+    height: 0.31rem;
+    background-color: #fc651b;
+    position: absolute;
+    right: 0.4rem;
+    top: 0.01rem;
+    border-radius: 0.175rem;
+}
+
+.round-orange{
+    width: 0.31rem;
+    height: 0.31rem;
+    background-color: #fc651b;
+    position: absolute;
+    left: -0.1rem;
+    bottom: 0rem;
+    border-radius: 0.175rem;
+}
+
+.circle-inner{
+    position: absolute;
+    width:0.9rem;
+    height: 0.9rem;
+    left:-0.66rem;
+    top: 0.282rem;
+    border-radius: 0.45rem;
+}
+
+.render-right-bottom{
+    width: 0.6rem;
+    height: 1.45rem;
+    background: rgb(127,127,127);
+}
+
+.render-circle-inner{
+    width:0.9rem;
+    height: 0.9rem;
+    border-radius: 0.45rem;
+    background: rgb(127,127,127);
+}
+
+@-webkit-keyframes circle{
+    0%{ transform: rotate(0deg); }
+    25%{ transform: rotate(90deg); }
+    50%{ transform: rotate(180deg); }
+    75%{ transform: rotate(270deg); }
+    100%{ transform: rotate(360deg); }
+}
+
+.render-circle{
+    transform: scale(0.7);
+    position:absolute;left:50%;top:50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left:-1.75rem;
+    margin-top: -2rem;
+    border-radius: 0.35rem;
+    z-index: 11000;
+    background: rgb(127,127,127);
+}

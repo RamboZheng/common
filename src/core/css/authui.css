@@ -1,0 +1,39 @@
+.icity-authui-bg {
+    position: fixed;
+    left: 0rem;
+    right: 0rem;
+    top: 0rem;
+    bottom: 0rem;
+    z-index: 99;
+    background: rgba(255, 255, 255, 1);
+}
+
+.icity-authui {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.icity-authui-con {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.icity-authui-con img {
+    width: 60%;
+}
+
+.icity-acu-txt1 {
+    text-align: center;
+    margin-top: 0.4rem;
+    color: white;
+    font-size: 0.45rem;
+    color: #fe942b;
+}
+
+.icity-acu-txt2 {
+    text-align: center;
+    margin-top: 0.2rem;
+    color: white;
+    font-size: 0.45rem;
+    color: #848489;
+}

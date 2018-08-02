@@ -1,0 +1,16 @@
+[v-cloak] {
+    display: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0.5rem;
+    background: #eeeeee;
+}
+
+.footer {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 0.3rem;
+    color: #5d5d55;
+}

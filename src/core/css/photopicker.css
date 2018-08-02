@@ -1,0 +1,62 @@
+.icity-photopicker-bg {
+    position: fixed;
+    left: 0rem;
+    right: 0rem;
+    top: 0rem;
+    bottom: 0rem;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.icity-photopicker {
+    position: fixed;
+    bottom: 0rem;
+    left: 0.3rem;
+    right: 0.3rem;
+    margin: 0rem;
+    padding: 0rem;
+    animation:photopicker-popup 0.3s;
+    -webkit-animation:photopicker-popup 0.3s;
+    animation-fill-mode: forwards;
+    display: none;
+}
+
+@-webkit-keyframes photopicker-popup
+{
+    0%   { bottom:-90%; }
+    25%  { bottom:-70%; }
+    50%  { bottom:-50%; }
+    75%  { bottom:-20%; }
+    100% { bottom:0%; }
+}
+
+.icity-photopicker-content {
+    border-radius: 5px;
+    background: #eaedef;
+}
+
+.icity-photopicker-item {
+    text-align: center;
+    padding: 0.3rem;
+    border-bottom: 1px solid #dedfe2;
+    font-size: 0.47rem;
+}
+
+.icity-photopicker-gallery {
+    color: #f543a8;
+}
+
+.icity-photopicker-camera {
+    color: #018fec;
+}
+
+.icity-photopicker-cancel {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    text-align: center;
+    padding: 0.3rem;
+    font-size: 0.47rem;
+    border-radius: 5px;
+    background: #f53739;
+    color: #ffffff;
+}

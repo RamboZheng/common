@@ -1,0 +1,32 @@
+
+.icity-empty {
+    background-color: #ffffff;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 999;
+}
+
+.icity-empty-dialog {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.icity-empty-icon {
+    text-align: center;
+}
+
+.icity-empty-icon img {
+    width: 70%;
+}
+
+.icity-empty-text {
+    text-align: center;
+    font-size: 0.36rem;
+    color: #333333;
+    margin-top: 0.5rem;
+}

@@ -1,0 +1,52 @@
+.icity-title {
+    color: #333333;
+    font-size: 0.37rem;
+}
+
+.icity-text {
+    color: #666666;
+    font-size: 0.4rem;
+}
+
+.icity-placeholder {
+    color: #999999;
+    font-size: 0.35rem;
+}
+
+.icity-bg {
+    background: #eeeeee;
+}
+
+.icity-line {
+    background: #eeeeee;
+    height: 1px;
+}
+
+.icity-btn {
+    text-align: center;
+    margin-top: 0.8rem;
+    color: white;
+    font-size: 0.43rem;
+    background: #fe952c;
+    border-radius: 4px;
+    padding: 0.4rem;
+    width: 70%;
+    display: inline-block;
+    transition: width 200ms;
+    -webkit-transition: width 200ms;
+}
+
+.icity-btn:active {
+    transform: scale(1.03);
+}
+
+.icity-source {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-size: 0.35rem;
+    padding: 0.8rem;
+    color: #999999;
+}

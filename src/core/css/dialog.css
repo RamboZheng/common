@@ -1,0 +1,71 @@
+.__icity-dialog-bg {
+    position: fixed;
+    left: 0rem;
+    right: 0rem;
+    top: 0rem;
+    bottom: 0rem;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.__icity-dialog {
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    animation: icity-dialog-animation 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    -webkit-animation: icity-dialog-animation 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-fill-mode: forwards;
+}
+
+.__icity-dialog-con {
+    width: 7rem;
+    padding-top: 1rem;
+    border-radius: 5px;
+    background: #ffffff;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    display: inline-block;
+}
+
+.__icity-dialog-icon {
+    margin-top: -2.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.__icity-dialog-icon img {
+    width: 3.5rem;
+}
+
+.__confirmdialogtext {
+    font-size: 0.4rem;
+}
+
+.__icity-dialog-btn {
+    padding-top: 0.6rem;
+}
+
+.__icity-dialog-btn span {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    font-size: 0.36rem;
+    width: 3.5rem;
+    box-sizing: border-box;
+    border-top: 1px solid #f4f4f4;
+}
+
+.__icity-dialog-btn .cancel {
+    border-right: 1px solid #f4f4f4;
+}
+
+.__icity-dialog-btn .confirm {
+    color: #fe952c;
+}
+
+@-webkit-keyframes icity-dialog-animation {
+    0% { transform: scale(.8); }  
+    50% { transform: scale(1); }  
+    90% { transform: scale(.95); }  
+    100% { transform: scale(1); }  
+}

@@ -1,0 +1,19 @@
+
+.icity-toast {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    z-index: 1000;
+    text-align: center;
+}
+
+.icity-toast-text {
+    display: inline-block;
+    font-size: 0.32rem;
+    padding: 0.29rem 0.4rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
+    min-width: 2.67rem;
+    max-width: 7.26rem;
+    color: white;
+}
